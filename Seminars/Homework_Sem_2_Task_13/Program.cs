@@ -50,7 +50,7 @@ int getThirdDigitFromNumber(int number)
     }
     return thirdDigit;
 }
-int randomNumber = getRandomNumberFromRange(10, 99);
+int randomNumber = getRandomNumberFromRange(10, 999999);
 Console.WriteLine($"Случайное заданное число: {randomNumber}");
 int thirdDigit = getThirdDigitFromNumber(randomNumber);
 if (thirdDigit < 0)
